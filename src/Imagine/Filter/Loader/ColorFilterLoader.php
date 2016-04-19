@@ -25,7 +25,7 @@ class ColorFilterLoader implements LoaderInterface
         }
 
         if (!$image instanceof Image) {
-            throw new InvalidArgumentException('Filter only work with imagick driver.');
+            throw new \LogicException('Filter only work with imagick driver.');
         }
 
         $image->effects()->grayscale();
