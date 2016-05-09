@@ -74,3 +74,6 @@ private function generateName($path, $color, $filter)
     return $path.substr($color, 1);
 }
 ```
+
+---------------------------------------
+This project is part of [https://gitlab.ftven.net/team-infini/zoom-public](francetv zoom open source projects) (iOS, Android and Angular)
