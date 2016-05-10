@@ -1,5 +1,7 @@
 # Liip Imagine Filter
 
+This project is part of [francetv zoom open source projects](https://github.com/francetv/zoom-public) (iOS, Android and Angular).
+
 Convert image to grayscale and apply color. Use composite function to mix color.
 
 ## How to use
@@ -74,6 +76,3 @@ private function generateName($path, $color, $filter)
     return $path.substr($color, 1);
 }
 ```
-
----------------------------------------
-This project is part of [francetv zoom open source projects](https://gitlab.ftven.net/team-infini/zoom-public) (iOS, Android and Angular)
